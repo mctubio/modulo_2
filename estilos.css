@@ -1,101 +1,80 @@
-body{
-    background-color: rgb(236, 230, 230);
+@font-face{
+    font-family: Nunito;
+    src: url('./fonts/Nunito-Regular.ttf')
 }
 
-
-h1{
-    font-family:cursive; 
-    font-size: 50px ; 
-    text-align: center; 
-    margin-bottom:10px;
+@font-face{
+    font-family: Satisfy-Regular;
+    src: url('./fonts/Satisfy-Regular.ttf')
+}
+/* body{
+    background-image:url('./img/7108682.jpg');
+    display: flex;
+    align-items: center;
+    justify-self: center;
+} */
+/* header */
+header{
+    background-color: aquamarine;
+}
+header .presentacion{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-bottom: 1px solid rgb(220, 220, 220);
+    position: relative;
+       
 }
 
-h2{
-    color: #343A40;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 30px ; 
-    text-align: center; 
-    margin-top:10px ;
+header .presentacion div{
+    display: flex;
+    margin: 0;
+    position: fixed;
 }
 
-h3{
-   color: #495057 ;
-   font-size: 20px;
-   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+header .presentacion h1{
+    font-family: Satisfy-Regular, "Lucida Sans";
+    font-size: 60px;
+    margin: 0;
 }
 
-p{
-  color: #495057 ;
-  text-align: justify; 
-  font-size: 15px;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-ul{
-    color: #495057;
-    font-size: 15px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    list-style-type: none;
-}
-
-hr{
-    color: #343A40;
-}
-
-label{
-    color: #495057 ;
-    text-align: justify; 
-    font-size: 20px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-input{
-    color: #495057 ;
-    text-align: justify; 
-    font-size: 15px;
-    font-family:Georgia, 'Times New Roman', Times, serif; 
-}
-
-img{
-    display: block;
-    margin: 0px auto;
-    border: 5px solid rgb(47, 1, 78);
-}
-
-div{
-    background-color: #baa3c57a;
-    width: 400px;
-    padding: 20px;
-    box-sizing: border-box;
-    border: 15px solid rgba(177, 147, 179, 0.986);
-
-} 
-
-.listaContacto{
-    font-family: Arial, Helvetica, sans-serif;
-
-
-}
-
-.listaPasatiempo{
-    list-style-type:square;
-    font-size: 18px;
-    font-style: italic;
-}
-
-.subtitulo{
+header .presentacion h2{
+    font-family: Satisfy-Regular, "Lucida Sans";
     font-size: 30px;
-}
-
-.tituloForm{
-    font-size: 30px ;
-    text-align: left;
-}
-
-.enviar{
-    font-size: 20px;
-    font-weight: bold;
+    margin: 0;
     padding: 10px;
-    text-align: center;
-    vertical-align: middle;
+}
+
+header .guardaLoto ul{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    overflow:  ;
+}
+
+header .guardaLoto li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    text-decoration-style: none;
+    list-style-type: none;
+    float: left;
+    
+}
+
+header .guardaLoto img{
+    width: 200px;
+    overflow: hidden;
+}
+
+div .pasatiempos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 50px;
+    margin: 50px;
+
 }
