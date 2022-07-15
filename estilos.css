@@ -1,72 +1,52 @@
-@font-face{
-    font-family: Nunito;
-    src: url('./fonts/Nunito-Regular.ttf')
-}
 
-@font-face{
-    font-family: Satisfy-Regular;
-    src: url('./fonts/Satisfy-Regular.ttf')
-}
-/* body{
-    background-image:url('./img/7108682.jpg');
-    display: flex;
-    align-items: center;
-    justify-self: center;
-} */
-/* header */
-header{
-    background-color: aquamarine;
-}
-header .presentacion{
+/* font-family: 'Nunito', sans-serif;
+font-family: 'Satisfy', cursive;*/
+
+#presentacion{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    border-bottom: 1px solid rgb(220, 220, 220);
     position: relative;
-       
-}
+    padding: 0;
+}       
 
-header .presentacion div{
-    display: flex;
-    margin: 0;
-    position: fixed;
-}
-
-header .presentacion h1{
-    font-family: Satisfy-Regular, "Lucida Sans";
+#presentacion h1{
+    font-family: 'Satisfy', cursive;
     font-size: 60px;
     margin: 0;
+    padding: 25px;
+    text-shadow: 10px 10px 10px #6E6E6E;
 }
 
-header .presentacion h2{
-    font-family: Satisfy-Regular, "Lucida Sans";
+#presentacion h2{
+    font-family: 'Satisfy', cursive;
     font-size: 30px;
     margin: 0;
     padding: 10px;
+    text-shadow: 10px 10px 10px #6E6E6E;
 }
 
-header .guardaLoto ul{
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    overflow:  ;
+#presentacion figure .imagenIzq{
+    width: 250px;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    bottom: 15px;
+    left: 15px;
+    margin: 0;
+    border: 1px groove rgba(0, 0, 0, 0.36);
 }
 
-header .guardaLoto li{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-    text-decoration-style: none;
-    list-style-type: none;
-    float: left;
-    
-}
-
-header .guardaLoto img{
-    width: 200px;
-    overflow: hidden;
+#presentacion figure .imagenDer{
+    width: 250px;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    bottom: 20px;
+    right: 15px;
+    margin: 0;
+    border: 1px groove rgba(0, 0, 0, 0.36);
 }
 
 div .pasatiempos{
@@ -74,7 +54,174 @@ div .pasatiempos{
     align-items: center;
     justify-content: center;
     width: 100%;
-    padding: 50px;
-    margin: 50px;
-
+    
 }
+
+.pasatiempos h3{
+    font-family: 'Nunito', sans-serif;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    margin: 15px 0px ;
+    padding-top: 25px;
+    text-shadow: 0px 2px 4px #C5C5C5;
+}
+
+.pasatiempos ul{
+    list-style-type: none;
+    font-family: 'Nunito', sans-serif;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 0px;
+}
+
+.pasatiempos li{
+    display: inline-block;
+    margin-right: 100px;
+}
+
+.pasatiempos i{
+    margin: 5px;
+}
+
+div .perfil{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+.perfil h3{
+    font-family: 'Nunito', sans-serif;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 3px double rgba(0, 0, 0, 0.49);
+    margin: 0px ;
+    padding-top: 25px;
+    text-shadow: 0px 2px 4px #C5C5C5;
+}
+
+.perfil p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;  
+    column-count: 2;
+    border-bottom:  3px double rgba(0, 0, 0, 0.49);
+    margin: 0px 0px 20px 0px;
+    padding: 10px 0px;
+}
+
+div .datos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.datos p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;  
+    margin: 0;
+    padding: 10px 0px 0px;
+}
+
+.datos a{
+    text-decoration: none;
+}
+
+.datos a:hover{
+    background-color: rgb(241, 122, 196);
+    border-radius: 25%;
+    color: rgb(5, 0, 3);
+}
+
+.datos a:visited{
+    color: black;
+}
+
+div .redes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.redes h3{
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+    margin: 10px 0px 0px 0px;
+}
+
+div .iconos{
+    margin-left: 70px;
+}
+
+.iconos i{
+    font-size: 30px;
+    padding: 10px;
+    color: #444444;
+}
+
+
+/*FORMULARIO*/
+
+
+.tituloForm{
+    font-family: 'Nunito', sans-serif;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 3px double rgba(0, 0, 0, 0.49);
+    padding: 10px;
+}
+
+#formulario{
+    display: flex;
+    flex-direction: row;
+}
+
+#formulario .col-izq {
+    width: 50%;
+    padding: 10px;
+    margin: 5px;
+}
+
+#formulario .col-izq .datosForm {
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    
+}
+
+.datosForm ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+.datosForm .enviar{
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    padding: 0;
+    margin: 0px 25px;
+    padding: 5px;
+}
+
+#formulario .col-der {
+    width: 50%;
+    height: 500px;
+    
+    padding: 10px;
+     
+    margin: 5px;
+}
+
+.col-der img{
+    width: 500px;
+}
+
+
+
