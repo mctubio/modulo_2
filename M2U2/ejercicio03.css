@@ -1,0 +1,36 @@
+#contenedor{
+    border: solid black 2px;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+}
+
+#rojo{
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+
+#azul{
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+
+#verde{
+    background-color: green;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
