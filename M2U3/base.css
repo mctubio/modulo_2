@@ -1,0 +1,95 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+  color: #000;
+  background: #332f29;
+  font-size: 100%;
+}
+#contenedor {
+  width: 800px;
+  background: #8fa68e;
+  margin-right: auto;
+  margin-left: auto;
+  overflow: hidden;
+}
+nav {
+  background: #cc3910;
+  float: left;
+  width: 160px;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  color: #f1f2c0;
+  text-decoration: none;
+}
+section {
+  background: #f1f2c0;
+  float: left;
+  margin: 0 0 0 25px;
+  width: 400px;
+  text-align: justify;
+}
+aside {
+  background: #ccc59e;
+  float: right;
+  width: 190px;
+  text-align: justify;
+}
+
+@media (max-width: 700px) {
+	body{
+		margin: 0%;
+	}
+  #contenedor {
+    width: 100%;
+    background: #739471;
+	margin-right: auto;
+    margin-left: auto;
+    overflow: hidden;
+  }
+
+  nav {
+    background: rgb(225, 204, 102);
+    width: 100%;
+	font-size: large;
+	border-bottom: #000 solid 2px;
+  }
+
+  nav li {
+    padding: 5px;
+    margin: 5px;
+  }
+  nav li a {
+    color: #000;
+  }
+  
+  section{
+	width: 100%;
+	margin: 0;
+	border-bottom: #000 solid 2px;
+  padding: 5px;
+  }
+
+  section p{
+	word-break: break-word; /*use esta opcion para no perder palabras*/
+	padding: 5px;
+  }
+
+  aside{
+	width: 100%;
+	margin: 0;
+	border-bottom: #000 solid 2px;
+  }
+
+  aside h2 {
+    padding-left: 5px;
+    }
+
+  aside p {
+	word-break: break-word;
+	padding: 5px;
+  }
+}
