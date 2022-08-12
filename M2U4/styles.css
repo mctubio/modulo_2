@@ -1,0 +1,35 @@
+.imagen {
+  height: 70%;
+  width: 70%;
+  object-fit: contain;
+}
+
+.presentacion h1 {
+  font-family: "Satisfy", cursive;
+  font-size: 60px;
+  text-shadow: 10px 10px 10px #6e6e6e;
+  word-wrap: break-word;
+  padding: 20px;
+}
+
+.presentacion h2 {
+  font-family: "Satisfy", cursive;
+  text-shadow: 10px 10px 10px #6e6e6e;
+  word-wrap: break-word;
+  padding: 20px;
+}
+
+.formulario h3 {
+  font-family: "Satisfy", cursive;
+  word-wrap: break-word;
+  padding: 20px;
+}
+
+.imagen_carousel{
+    width: 900px !important;
+}
+
+.opcion{
+  font-family: 'Nunito', sans-serif;
+  word-wrap: break-word;
+}
